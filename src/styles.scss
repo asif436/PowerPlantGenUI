@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.searchlawyer-container {
+  padding-left: 20px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 50px;
+  margin-right: 5px;  
+  min-width: 200px;
+  max-width: 1060px;
+  max-height: 1080px;
+  min-height: 200px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 650px;
+  width: 100%;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+.mom {
+    width: 100%; /* Try setting this to 400px or something */
+    display: table;
+    border: 1px solid #444444;
+}
+.child {
+    display: table-cell;
+}
+.childinner {
+    margin-left: 25px;
+    /* Decorative .. */
+    background-color: #cccccc;
+    min-height: 40px;
+    vertical-align: top;
+}
+.child:first-child .childinner {
+    margin-left: 0;
+}

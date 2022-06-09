@@ -1,0 +1,21 @@
+export let  config = {
+  webBaseURL: 'http://dillyccms/',
+  loadPPGenerationDataURL: 'statepowerplantmanager/getcountrypowerproductiondata',
+  geocoderURL: 'https://maps.googleapis.com/maps/api/geocode/json?address=',
+  apikey:'AIzaSyDx-eUXzyDeb4NDpPfnGtJ10ac3NNW-A74',
+  countryCode: 'USA',
+  USALat: '39.87119978852287',
+  USALon: '-101.25264495178524',
+  coal_Generation_Percent: 'Coal Gen :',
+  oil_Generation_Percent: 'Oil Gen :',
+  gas_Generation_Percent: 'Gas Gen :',
+  nuclear_Generation_Percent: 'Nuclear Gen :',
+  hydro_Generation_Percent: 'Hydro Gen :',
+  biomass_Generation_Percent: 'Biomass Gen :',
+  wind_Generation_Percent: 'Win Gen :',
+  solar_Generation_Percent: 'Solar Gen :',
+  grothermal_Generation_Percent: 'Geothermal Gen :',
+  fossil_Generation_Percent: 'Fossil Gen :',
+  unknown_Generation_Percent: 'Unknown Gen :',
+  serviceLoadingError: 'Location service is down.Please try later'
+};
