@@ -28,60 +28,6 @@ export class SharedService {
 
         this.hostURL = 'http://'+ this.window.location.hostname ;
 
-    this.stateCodeToName.set('AL','Alabama'); 
-    this.stateCodeToName.set('AK','Alaska'); 
-    this.stateCodeToName.set('AZ','Arizona');
-    this.stateCodeToName.set('AR','Arkansas'); 
-    this.stateCodeToName.set('CA','California');    
-    this.stateCodeToName.set('CO','Colorado'); 
-    this.stateCodeToName.set('CT','Connecticut');
-    this.stateCodeToName.set('DE','Delaware'); 
-    this.stateCodeToName.set('FL','Florida');
-    this.stateCodeToName.set('GA','Georgia'); 
-    this.stateCodeToName.set('HI','Hawaii');    
-    this.stateCodeToName.set('ID','Idaho'); 
-    this.stateCodeToName.set('IL','Illinois');
-    this.stateCodeToName.set('IN','Indiana'); 
-    this.stateCodeToName.set('IA','Iowa');
-    this.stateCodeToName.set('KS','Kansas'); 
-    this.stateCodeToName.set('KY','Kentucky');    
-    this.stateCodeToName.set('LA','Louisiana'); 
-    this.stateCodeToName.set('ME','Maine');
-    this.stateCodeToName.set('MD','Maryland'); 
-    this.stateCodeToName.set('MA','Massachusetts');
-    this.stateCodeToName.set('MI','Michigan'); 
-    this.stateCodeToName.set('MN','Minnesota');    
-    this.stateCodeToName.set('MS','Mississippi'); 
-    this.stateCodeToName.set('MO','Missouri');
-    this.stateCodeToName.set('MT','Montana'); 
-    this.stateCodeToName.set('NE','Nebraska');
-    this.stateCodeToName.set('NV','Nevada'); 
-    this.stateCodeToName.set('NH','New Hampshire');    
-    this.stateCodeToName.set('NJ','New Jersey'); 
-    this.stateCodeToName.set('NM','New Mexico');
-    this.stateCodeToName.set('NY','New York'); 
-    this.stateCodeToName.set('NC','North Carolina');
-    this.stateCodeToName.set('ND','North Dakota'); 
-    this.stateCodeToName.set('OH','Ohio');    
-    this.stateCodeToName.set('OK','Oklahoma'); 
-    this.stateCodeToName.set('OR','Oregon');
-    this.stateCodeToName.set('PA','Pennsylvania'); 
-    this.stateCodeToName.set('RI','Rhode Island');
-    this.stateCodeToName.set('SC','South Carolina'); 
-    this.stateCodeToName.set('SD','South Dakota');    
-    this.stateCodeToName.set('TN','Tennessee'); 
-    this.stateCodeToName.set('TX','Texas');
-    this.stateCodeToName.set('UT','Utah');
-    this.stateCodeToName.set('VT','Vermont');
-    this.stateCodeToName.set('VA','Virginia');
-    this.stateCodeToName.set('WA','Washington');
-    this.stateCodeToName.set('VT','Vermont');
-    this.stateCodeToName.set('VA','Virginia');
-    this.stateCodeToName.set('WA','Washington');
-    this.stateCodeToName.set('WV','West Virginia');
-    this.stateCodeToName.set('WI','Wisconsin');
-    this.stateCodeToName.set('WY','Wyoming');
-    
     }
 
 	getHostURL() : string {

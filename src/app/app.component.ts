@@ -202,7 +202,7 @@ export class AppComponent implements OnInit , AfterViewInit {
 
     /* onSelectState event for state Dropdown menu    */
     onSelectState(selectedState: any) {
-      this.errorLoadingMsg = config.serviceLoadingError;
+      this.errorLoadingMsg = '';
       
       this.lstPowerPlant =  selectedState.power_plant;      
       this.markers =[];
